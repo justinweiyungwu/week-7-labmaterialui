@@ -1,0 +1,17 @@
+button {
+  background-color: black;
+  color: white;
+}
+body,
+input,
+button {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.25s ease-in-out;
+}
